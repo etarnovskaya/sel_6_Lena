@@ -40,7 +40,7 @@ public class FirstTest {
 
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
+        driver.findElement(By.xpath("//*[@id='box-login']/form/div[2]/button")).click();
 
     }
 
